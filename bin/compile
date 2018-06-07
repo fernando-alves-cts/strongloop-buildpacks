@@ -66,7 +66,6 @@ elif test -d $cache_dir/node_modules; then
 fi
 
 status "Installing StrongLoop and IBM API Connect dependencies"
-npm install -g strongloop
 npm install -g apiconnect
 # Make npm output to STDOUT instead of its default STDERR
 status "Installing dependencies"
